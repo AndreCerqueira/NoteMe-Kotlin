@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/paginaPrincipal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#F6C98B" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#faaf46"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/buttonReturn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:textColor="@color/black"
+            android:textSize="23dp"
+            app:backgroundTint="#faaf46"
+            app:icon="@drawable/abc_vector_test"
+            app:iconTint="#000000" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+
+            android:background="@drawable/buttonshape"
+            android:textColor="@color/black"
+            android:textSize="23dp"
+            app:backgroundTint="#faaf46"
+            app:icon="@android:drawable/ic_menu_delete"
+            app:iconTint="#000000" />
+
+        <Button
+            android:id="@+id/buttonAddDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+
+            android:textColor="@color/black"
+            android:textSize="23dp"
+            app:backgroundTint="#faaf46"
+            app:icon="@android:drawable/ic_menu_recent_history"
+            app:iconTint="#000000" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F8BD6A"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <EditText
+            android:id="@+id/editTextTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Titulo"
+            android:textSize="26sp"
+            android:textColor="#606060"
+            />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nota"
+        android:textSize="18sp"
+        android:textColor="#606060"
+        />
+
+
+</LinearLayout>
